@@ -449,6 +449,17 @@ button:focus {
 
 .navbar-expand-md .navbar-toggler:focus {
   outline: none; }
+.navbar-brand img {
+    width: 90px;
+    margin: 0;
+    position: relative;
+    transition: all linear .5s;
+}
+
+.menu-bg .navbar-brand img {
+    width:70px
+}
+
 
 /* ==========================================================================
    Hero Area
@@ -519,7 +530,10 @@ button:focus {
         background: #fff;
         color: #3ecf8e; }
   .hero-area .intro-img {
-    padding: 180px 0 0px; }
+    padding: 140px 0 0px;
+    overflow: hidden;
+}
+
     .hero-area .intro-img img {
       display: block;
       height: auto;
@@ -551,6 +565,11 @@ button:focus {
     border-radius: 50%;
     position: relative;
     margin-bottom: 25px; }
+#services .services-item .icon img{
+    height: inherit;
+    overflow: hidden;
+    width: inherit;
+}
   #services .services-item .icon i {
     font-size: 40px;
     color: #3ecf8e;
@@ -757,7 +776,7 @@ button:focus {
     position: absolute;
     width: 97%;
     z-index: 12;
-    top: 260px;
+    top: 280px;
     margin: 0px auto; }
   #showcase .showcase-text h2 {
     color: #fff; }
@@ -765,8 +784,11 @@ button:focus {
     color: #fff; }
   #showcase .gradient-bg {
     background: #5533ff;
-    background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%);
-    padding: 119px 0px 80px 0px; }
+    background: linear-gradient(
+95deg
+, #5533ff 40%, #25ddf5 100%);
+    padding: 80px 0px 40px 0px;
+}
   #showcase .showcase-slider .owl-controls .owl-page.active span, #showcase .showcase-slider .owl-controls.clickable .owl-page:hover span {
     filter: Alpha(Opacity=100);
     opacity: 1;
@@ -1010,18 +1032,24 @@ button:focus {
     position: relative;
     padding-left: 10px; }
   #pricing .pricing-table h1 span {
-    font-size: 16px;
-    position: absolute;
-    left: 20%;
-    top: 10px; }
+    font-size: 30px;
+    font-family: none;
+    vertical-align: top;
+    padding: 5px 2px;
+   }
   #pricing .pricing-table ul {
     padding-bottom: 28px; }
   #pricing .pricing-table ul li {
     font-size: 16px;
     font-weight: 400;
     color: #5e629c;
-    display: block;
-    line-height: 33px; }
+    display: list-item;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 10px;
+    list-style: disc;
+    padding-left: 10px;
+}
   #pricing .pricing-table:hover {
     border: 1px solid #3ecf8e;
     box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
