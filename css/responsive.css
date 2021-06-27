@@ -32,9 +32,10 @@
   .hero-area .contents h2 {
     font-size: 38px; }
   .navbar-expand-md .navbar-nav .nav-link {
-    padding: 12px 5px;
-    font-size: 13px;
-    margin-left: 15px; }
+    font-size: 15px;
+    padding: 8px 0px;
+    margin-left: 40px;
+}
   .hero-area .contents {
     padding: 210px 0 280px; }
   #business-plan .business-item-info h3 {
@@ -108,8 +109,6 @@
     line-height: 25px; }
   #pricing .pricing-table {
     padding: 30px 15px; }
-  #pricing .pricing-table h1 span {
-    left: 10%; }
   #team .single-team, .blog-item-wrapper, .services-item {
     margin-bottom: 20px; }
   .contact-img img {
